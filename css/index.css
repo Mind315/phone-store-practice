@@ -1,0 +1,33 @@
+:root {
+    --color-card: #94b2c5;
+    --color-body: #d5ebff;
+
+    --color-light: #f8f9fa;
+    --color-medium: #0068fe;
+    --color-dark: #a1a1a1;
+    --color-unaccent: #808080;
+    --color-white: #fff;
+    --color-error-light: #f26b6b;
+    --color-error-dark: #d65c5c;
+
+    --spacing-small: 8px;
+    --spacing-medium: 12px;
+    --spacing-large: 26px;
+
+    --border-radius: 10px;
+    --linear-gradient: linear-gradient(to right, #86b3f3, #71a8f5, #418cf5, #1e79f8);
+    --box-shadow: 0 8px 12px 2px rgb(179, 179, 179), 0 6px 30px 5px rgba(255, 254, 254, 0.68), 0 8px 10px -5px rgba(255, 255, 255, 0.851);
+    --box-shadow-hover: 0 16px 32px 2px rgb(179, 179, 179), 0 6px 30px 5px rgba(255, 254, 254, 0.68),
+        0 8px 10px -5px rgba(255, 255, 255, 0.851);
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    line-height: 1.7;
+    background-color: var(--color-body);
+}
